@@ -1,0 +1,285 @@
+    @import url(https://fonts.googleapis.com/css?family=roboto:400,300,600,400italic);
+    *{
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    div #bot1{
+        position: relative;
+        text-align:center;
+        float: right;
+        right: 40%;
+        top: 100px;
+    }
+    div #bot2{
+        position: relative;
+        text-align:center;
+        float: left;
+        left: 40%;
+        top: 100px;
+    }
+    
+    p{
+        position: relative;
+        text-align:center;
+        font-size: 40px;
+        color: black;
+        top: 40px;
+       
+    }
+    
+    .inicial{
+        text-align: center; 
+        background-color: white;
+    }
+    .botao{
+        font-family: arial;
+        font-size:14px;
+        text-transform: uppercase;
+        font-weight: 700;
+        border:none;
+        padding:10px;
+        cursor: pointer;
+        display:inline-block;
+        text-decoration:none;
+    
+    }
+    .btn-green{
+        background:green;
+        color:#fff;
+        box-shadow:0 5px 0#006000;
+    
+    }
+    .btn-green:hover{
+        background:#006000;
+        color:#fff;
+        box-shadow:0 5px 0#003f00;
+    
+    }
+    .btn-green:active{
+        position:relative;
+        top:5px;
+        box-shadow:none;
+    
+    }
+    a:visited{
+        color:white
+    }
+    a{
+        text-decoration:none;
+    }
+    
+    
+    
+    body{
+        background-repeat: no-repeat;
+        height: 100%;
+        margin: 0;
+    }
+    .bg{
+        background-image: url("../img/background.png");
+        background-size: cover;
+        background-position: top;
+        background-attachment: fixed;
+    }
+    .header{
+        width: 100%;
+        height: 80px;
+        display: block;
+        background-color: #101010
+    
+    }
+    .inner_header{
+        width: 1000px;
+        height: 100%;
+        display: block;
+        margin: 0 auto;
+    
+    
+    }
+    .logo_container{
+        height: 100%;
+        display: table;
+        float:left;
+    }
+    .logo_container h2{
+        color: white;
+        height: 100%;
+        display: table-cell;
+        vertical-align: middle ;
+        font-family:'Montserrat';
+        font-size: 32px;
+        font-weight: 200;
+        
+    }
+    
+    .logo_container h2 span{
+        font-weight: 800;
+    
+    }
+    .navigation {
+        float: right;
+        height:100%;
+        
+    }
+    .navigation a{
+        height: 100%;
+        display: table;
+        float: left;
+        padding: 0px 20px;
+        
+    }
+    .navigation a:last-child{
+        padding-right: 0;
+    }
+    
+    .navigation li{
+        display: table-cell;
+        vertical-align: middle;
+        height: 100%;
+        color: white;
+        font-family:'Montserrat';
+        font-size: 16px
+    }
+    .veiculos img{
+        width: 300px; 
+        height:200px;
+        border-radius: 10px;
+        padding: 0px;
+    }
+.carroum{
+    display: flex;
+    align-items: center;
+}
+.carroum h4{
+    font-size: 15px;
+    font-weight: normal;
+    display: inline-block;
+
+}
+.carroum button{
+    width: 100px;
+    margin: 0 auto;
+    
+
+}
+.carroum h5{
+font-family:sans-serif;
+position: relative;
+padding: 0%;
+}
+.carroum em{
+    color:red
+}
+
+#contato{
+	text-align: center;
+    background-color: grey;
+}
+
+legend{
+	font-size: 30px;
+    text-align: center;
+}
+input{
+	text-align: center;
+}
+textarea{
+	text-align: center;
+}
+
+form{
+    text-align: center;
+}
+
+input{
+    border-radius: 20px;
+    box-shadow: 0 0 3px;
+}
+footer{
+    position: relative;
+    top: 450px;
+}
+
+h6{
+    text-align: center;
+}
+.fafa-facebook{
+    color: white;
+}
+
+.footer-distributed{
+	background-color: black;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: normal 16px sans-serif;
+
+	padding: 45px 50px;
+	margin-top: 80px;
+}
+
+.footer-distributed .footer-left p{
+	color:  #8f9296;
+	font-size: 14px;
+	margin: 0;
+}
+
+/* Footer links */
+
+.footer-distributed p.footer-links{
+	font-size:18px;
+	font-weight: bold;
+	color:  #ffffff;
+	margin: 0 0 10px;
+	padding: 0;
+    text-align: center;
+}
+
+.footer-distributed p.footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+    position: relative;
+    left: 70px;
+}
+
+.footer-distributed .footer-right{
+	float: right;
+	margin-top: 6px;
+	max-width: 180px;
+}
+
+.footer-distributed .footer-right a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-left: 3px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 600px) {
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-right{
+		text-align: center;
+	}
+
+	.footer-distributed .footer-right{
+		float: none;
+		margin: 0 auto 20px;
+	}
+
+	.footer-distributed .footer-left p.footer-links{
+		line-height: 1.8;
+	}
+}
